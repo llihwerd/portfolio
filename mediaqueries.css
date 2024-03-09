@@ -72,7 +72,7 @@
     flex-wrap: wrap;
   }
   .contact-info-container {
-    margin: 0;
+    margin: 7px;
   }
   .contact-info-container p,
   .nav-links li a {
