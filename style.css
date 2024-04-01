@@ -70,6 +70,13 @@ a:hover {
   text-decoration-color: white;
 }
 
+.contact-info-container a:hover {
+  color: black;
+  text-decoration: underline;
+  text-underline-offset: 1rem;
+  text-decoration-color: black;
+}
+
 .logo {
   font-size: 2rem;
 }
@@ -199,6 +206,7 @@ section {
 .section__text__p1 {
   text-align: center;
   color: black;
+  font-size: 20px;
 }
 
 .section__text__p2 {
