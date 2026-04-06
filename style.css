@@ -17,6 +17,14 @@ html {
   scroll-behavior: smooth;
 }
 
+h3 {
+  font-weight: bold;
+}
+
+h3.not-bold {
+  font-weight: normal;
+}
+
 p {
   color: rgb(85, 85, 85);
 }
@@ -386,6 +394,78 @@ article .icon {
 /* PROJECTS SECTION */
 
 #projects {
+  position: relative;
+}
+
+.color-container {
+  border-color: rgb(163, 163, 163);
+  background: rgb(250, 250, 250);
+  width: 300px;
+  padding: 1.5rem;
+  align-items: center;
+  background: white;
+  border-radius: 2rem;
+  border: rgb(53, 53, 53) 0.1rem solid;
+  border-color: rgb(163, 163, 163);
+  text-align: center;
+  margin: 2px;
+}
+
+.project-img {
+  border-radius: 2rem;
+  width: 90%;
+  height: 90%;
+}
+
+.project-title {
+  margin: 1rem;
+  color: black;
+}
+
+.project-btn {
+  color: black;
+  border-color: rgb(163, 163, 163);
+}
+
+/* WEB DESIGN SECTION */
+
+#web_design {
+  position: relative;
+}
+
+.color-container {
+  border-color: rgb(163, 163, 163);
+  background: rgb(250, 250, 250);
+  width: 300px;
+  padding: 1.5rem;
+  align-items: center;
+  background: white;
+  border-radius: 2rem;
+  border: rgb(53, 53, 53) 0.1rem solid;
+  border-color: rgb(163, 163, 163);
+  text-align: center;
+  margin: 2px;
+}
+
+.project-img {
+  border-radius: 2rem;
+  width: 90%;
+  height: 90%;
+}
+
+.project-title {
+  margin: 1rem;
+  color: black;
+}
+
+.project-btn {
+  color: black;
+  border-color: rgb(163, 163, 163);
+}
+
+/* TECH STACK SECTION */
+
+#tech_stack {
   position: relative;
 }
 
